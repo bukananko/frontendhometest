@@ -13,6 +13,8 @@ Proyek ini adalah aplikasi web frontend yang dibangun dengan **Next.js** dan **T
 - [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework untuk styling responsif.
 - [React](https://reactjs.org/) – Library JavaScript untuk membangun antarmuka pengguna.
 - [Vercel](https://vercel.com/) – Platform deployment untuk aplikasi frontend.
+- [shadcn/ui](https://ui.shadcn.com/) - Library komponen UI berbasis Radix UI dan Tailwind CSS
+- [Tiptap](https://tiptap.dev/) - Framework rich text editor berbasis ProseMirror
 
 ## 📁 Struktur Proyek
 ```bash
@@ -32,7 +34,7 @@ frontendhometest/
 └── README.md           # Dokumentasi proyek
 ```
 
-## 🛠️ Instalasi dan Menjalankan Projek
+## 🛠️ Instalasi dan Menjalankan Proyek
 
 ### 1. Kloning Repositori
 
