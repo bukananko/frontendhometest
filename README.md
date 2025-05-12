@@ -15,6 +15,7 @@ Proyek ini adalah aplikasi web frontend yang dibangun dengan **Next.js** dan **T
 - [Vercel](https://vercel.com/) – Platform deployment untuk aplikasi frontend.
 
 ## 📁 Struktur Proyek
+```bash
 frontendhometest/
 ├── app/                # Halaman dan layout utama (Next.js App Router)
 ├── components/         # Komponen UI modular dan reusable
@@ -29,7 +30,7 @@ frontendhometest/
 ├── postcss.config.mjs  # Konfigurasi PostCSS
 ├── tsconfig.json       # Konfigurasi TypeScript
 └── README.md           # Dokumentasi proyek
-
+```
 
 ## 🛠️ Instalasi dan Menjalankan Projek
 
