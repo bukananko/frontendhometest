@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FrontendHomeTest
 
-## Getting Started
+Live: [https://frontendhometest.vercel.app](https://frontendhometest.vercel.app)
 
-First, run the development server:
+## 📘 Deskripsi Proyek
+
+Proyek ini adalah aplikasi web frontend yang dibangun dengan **Next.js** dan **TypeScript**. Aplikasi ini dirancang untuk memberikan pengalaman pengguna yang responsif dan interaktif. Antarmuka pengguna dioptimalkan untuk kinerja dan aksesibilitas.
+
+## 🚀 Teknologi yang Digunakan
+
+- [Next.js](https://nextjs.org/) – Framework React untuk aplikasi web modern.
+- [TypeScript](https://www.typescriptlang.org/) – Superset JavaScript dengan tipe statis.
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework untuk styling responsif.
+- [React](https://reactjs.org/) – Library JavaScript untuk membangun antarmuka pengguna.
+- [Vercel](https://vercel.com/) – Platform deployment untuk aplikasi frontend.
+
+## 📁 Struktur Proyek
+frontendhometest/
+├── app/                # Halaman dan layout utama (Next.js App Router)
+├── components/         # Komponen UI modular dan reusable
+├── context/            # State global dengan React Context
+├── hooks/              # Custom hooks
+├── lib/                # Fungsi utilitas atau helper
+├── public/             # File statis (gambar, favicon, dll)
+├── types/              # Definisi tipe global (TypeScript)
+├── .gitignore          # File yang diabaikan oleh Git
+├── next.config.ts      # Konfigurasi untuk Next.js
+├── package.json        # Konfigurasi proyek dan dependencies
+├── postcss.config.mjs  # Konfigurasi PostCSS
+├── tsconfig.json       # Konfigurasi TypeScript
+└── README.md           # Dokumentasi proyek
+
+
+## 🛠️ Instalasi dan Menjalankan Projek
+
+### 1. Kloning Repositori
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/bukananko/frontendhometest.git
+cd frontendhometest
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Instalasi Dependensi
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. Menjalankan Server Lokal
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Akses aplikasi di http://localhost:3000.
