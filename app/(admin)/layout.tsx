@@ -30,7 +30,7 @@ export default function RootLayout({
         <ContextProvider>
           <SidebarProvider>
             <AdminSidebar />
-            <main className='flex-1 flex flex-col justify-between min-h-screen'>
+            <main className='flex-1 flex flex-col justify-between min-h-screen overflow-x-hidden'>
               <AdminNavbar />
               {children}
             </main>

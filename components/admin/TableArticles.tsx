@@ -50,7 +50,6 @@ const TableArticles = () => {
   return (
     <>
       <SearchInput type='articles' />
-
       <Table className='border-t'>
         <TableHeader>
           <TableRow className='bg-gray-100'>
@@ -88,10 +87,8 @@ const TableArticles = () => {
                     />
                   </div>
                 </TableCell>
-                <TableCell className='w-[225px]'>
-                  <p className='text-left line-clamp-3 wrap-anywhere text-balance px-3'>
-                    {article.title}
-                  </p>
+                <TableCell className='max-lg:min-w-[225px]'>
+                  <p className='text-left line-clamp-3 px-3 text-balance'>{article.title}</p>
                 </TableCell>
                 <TableCell>
                   <p>{article.category?.name} </p>
@@ -151,7 +148,6 @@ const TableArticles = () => {
           </DialogFooter>
         </DialogContent>
       </Dialog>
-
       {articles.total > 10 && (
         <div className='p-6 border-t'>
           <PaginationWithLinks page={currentPage} pageSize={10} totalCount={articles.total} />

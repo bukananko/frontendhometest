@@ -15,13 +15,13 @@ const ArticleCard = ({ article }: Props) => {
     <Card
       onClick={() => router.push(`/articles/${article.id}`)}
       className='lg:w-[390px] border-none md:shadow-none py-0 gap-4 cursor-pointer'>
-      <CardHeader className='w-full px-0'>
+      <CardHeader className='px-0 max-h-65 overflow-hidden rounded-xl z-[99999px]'>
         <img
           src={article.imageUrl || 'https://placehold.co/600x400?text=Hello+World'}
           alt={article.title}
           width={500}
           height={500}
-          className='w-full rounded-xl'
+          className='w-full object-cover aspect-video object-center rounded-xl'
         />
       </CardHeader>
 
