@@ -17,6 +17,7 @@ Proyek ini adalah aplikasi web frontend yang dibangun dengan **Next.js** dan **T
 - [Tiptap](https://tiptap.dev/) - Framework rich text editor berbasis ProseMirror
 
 ## 📁 Struktur Proyek
+
 ```bash
 frontendhometest/
 ├── app/                # Halaman dan layout utama (Next.js App Router)
@@ -44,11 +45,19 @@ cd frontendhometest
 ```
 
 ### 2. Instalasi Dependensi
+
 ```bash
 npm install
 ```
 
-### 3. Menjalankan Server Lokal
+### 3. Copy isi file `.env.example` ke `.env` di direktori root proyek
+
+```bash
+cp .env.example .env
+```
+
+### 4. Menjalankan Server Lokal
+
 ```bash
 npm run dev
 ```
